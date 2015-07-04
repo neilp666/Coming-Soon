@@ -11,5 +11,38 @@
  * file per style scope.
  *
  */
+ @import url(//fonts.googleapis.com/css?family=Varela+Round);
+ @import url(//fonts.googleapis.com/css?family=Raleway:400,200,600,700,800,500,300,100);
  @import "bootstrap-sprockets";
  @import "bootstrap";
+
+ .home-information {
+  height: 300px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+}
+
+.bg-dark {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0,0,0,0.3);
+}
+
+.slogan {
+  color: white;
+  font-family: 'Raleway', "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 1.2em;
+  padding: 10px 0 10px;
+  text-align: center;
+}
+
