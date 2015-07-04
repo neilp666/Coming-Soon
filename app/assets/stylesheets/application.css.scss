@@ -17,7 +17,8 @@
  @import "bootstrap";
 
  .home-information {
-  height: 300px;
+
+  height: 200px;
   margin: auto;
   position: absolute;
   top: 0;
@@ -25,7 +26,16 @@
   bottom: 0;
   right: 0;
   text-align: center;
+
+    h1 {
+   
+    text-shadow: 0px 3px 4px #555;
+    color: #fff;
+
+  }
 }
+
+
 
 .bg-dark {
   position: absolute;
@@ -34,6 +44,11 @@
   right: 0;
   left: 0;
   background: rgba(0,0,0,0.3);
+  line-height: 1.5;
+  background: url('https://dl.dropboxusercontent.com/s/vysw2luz7z6ws3x/skyscraper_resize.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .slogan {
