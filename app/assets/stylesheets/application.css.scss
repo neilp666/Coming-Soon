@@ -11,7 +11,6 @@
  * file per style scope.
  *
  */
- @import url(//fonts.googleapis.com/css?family=Varela+Round);
  @import url(//fonts.googleapis.com/css?family=Pacifico|Open+Sans:300);
  @import url(//fonts.googleapis.com/css?family=Raleway:400,200,600,700,800,500,300,100);
  @import "bootstrap-sprockets";
@@ -50,7 +49,7 @@ body {
   background-color: #333;
 }
 body {
-  background: url('river1.jpg');
+  background: url('https://dl.dropboxusercontent.com/s/phrqfxef0c4x69x/river1.jpg');
   text-align: center;
   text-shadow: 0px 3px 4px #555;
   color: white;
